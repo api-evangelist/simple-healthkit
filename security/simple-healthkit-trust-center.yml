@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.simplehealthkit.com/
+url: https://trust.simplehealthkit.com/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://trust.simplehealthkit.com/
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
+  - trust center

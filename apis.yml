@@ -1,4 +1,16 @@
 aid: simple-healthkit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simple-healthkit.png
 name: Simple HealthKit
 description: 'Simple HealthKit is a company surfaced as a portfolio company of initialized-capital and
   added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
@@ -22,6 +34,17 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 common:
+- type: TrustCenter
+  url: security/simple-healthkit-trust-center.yml
+- type: Compliance
+  url: security/simple-healthkit-trust-center.yml
+- type: DomainSecurity
+  url: security/simple-healthkit-domain-security.yml
 - type: Website
   url: https://www.simplehealthkit.com/
